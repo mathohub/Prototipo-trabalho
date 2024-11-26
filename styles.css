@@ -5,7 +5,7 @@ body, h1, h2, p, ul, li, a, input, textarea, button {
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif; /* Adicionei uma fonte mais elegante */
     line-height: 1.6;
     color: #333;
 }
@@ -15,9 +15,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 30px; /* Aumentei o tamanho do cabeçalho */
     background-color: #4CAF50;
     color: #fff;
+    font-size: 1.2rem; /* Tamanho das fontes do cabeçalho */
 }
 .navbar ul {
     display: flex;
@@ -30,6 +31,7 @@ header {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 .navbar ul li a:hover {
     text-decoration: underline;
@@ -43,6 +45,7 @@ header {
 }
 .hero h1 {
     margin-bottom: 10px;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 .hero .btn-primary {
     display: inline-block;
@@ -76,9 +79,11 @@ header {
 }
 .card h3 {
     padding: 10px;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 .card p {
     padding: 0 10px 10px;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 .card .btn-secondary {
     display: block;
@@ -106,6 +111,7 @@ form {
 form label {
     display: block;
     margin: 10px 0 5px;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 form input, form textarea {
     width: 100%;
@@ -132,6 +138,9 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
+    position: fixed; /* Fixa o rodapé na parte inferior */
+    bottom: 0;
+    width: 100%; /* Garante que ocupe toda a largura */
 }
 footer a {
     color: #4CAF50;
