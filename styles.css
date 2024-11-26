@@ -1,0 +1,127 @@
+/* Reset básico */
+body, h1, h2, p, ul, li, a, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+.navbar ul li {
+    margin: 0 10px;
+}
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+.hero h1 {
+    margin-bottom: 10px;
+}
+.hero .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hero .btn-primary:hover {
+    background-color: #45a049;
+}
+
+/* Cards de conteúdo */
+.card-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    flex: 1 1 calc(50% - 20px);
+    background: #fff;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card h3 {
+    padding: 10px;
+}
+.card p {
+    padding: 0 10px 10px;
+}
+.card .btn-secondary {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ddd;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.card .btn-secondary:hover {
+    background-color: #bbb;
+}
+
+/* Formulário */
+.form-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #45a049;
+}
