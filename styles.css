@@ -125,3 +125,19 @@ form button {
 form button:hover {
     background-color: #45a049;
 }
+
+/* Rodapé */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
