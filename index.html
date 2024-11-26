@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html> <!-- Declaração do tipo de documento -->
+<html lang="pt-BR"> <!-- Define o idioma da página -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educação sobre Análise de Solo</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- Codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade em dispositivos móveis -->
+    <title>Educação sobre Análise de Solo</title> <!-- Título da página exibido no navegador -->
+    <link rel="stylesheet" href="styles.css"> <!-- Importa o arquivo CSS externo -->
 </head>
 <body>
     <!-- Cabeçalho -->
     <header>
-        <div class="logo">Análise de Solo</div>
-        <nav class="navbar">
+        <div class="logo">Análise de Solo</div> <!-- Logotipo ou nome do site -->
+        <nav class="navbar"> <!-- Barra de navegação -->
             <ul>
-                <li><a href="#home">Início</a></li>
+                <li><a href="#home">Início</a></li> <!-- Links para seções da página -->
                 <li><a href="#artigos">Artigos</a></li>
                 <li><a href="#ferramentas">Ferramentas</a></li>
                 <li><a href="#sobre">Sobre</a></li>
@@ -22,30 +22,30 @@
     </header>
 
     <!-- Seção Principal -->
-    <section id="home" class="hero">
+    <section id="home" class="hero"> <!-- Área de destaque com boas-vindas -->
         <h1>Bem-vindo à Educação sobre Análise de Solo</h1>
         <p>Explore conteúdos e ferramentas para melhorar seu conhecimento.</p>
-        <a href="#artigos" class="btn-primary">Saiba Mais</a>
+        <a href="#artigos" class="btn-primary">Saiba Mais</a> <!-- Botão que leva à seção de artigos -->
     </section>
 
     <!-- Seção de Artigos -->
-    <section id="artigos" class="content">
+    <section id="artigos" class="content"> <!-- Contém artigos educativos -->
         <h2>Artigos Educativos</h2>
-        <div class="card-container">
-            <div class="card">
-                <img src="solo1.jpg" alt="Amostra de Solo">
-                <h3>Como coletar amostras de solo</h3>
+        <div class="card-container"> <!-- Contêiner para os cartões de artigo -->
+            <div class="card"> <!-- Um cartão com informações de artigo -->
+                <img src="solo1.jpg" alt="Amostra de Solo"> <!-- Imagem do artigo -->
+                <h3>Como coletar amostras de solo</h3> <!-- Título do artigo -->
                 <p>Para coletar amostra de solo, defina a área homogênea, escolha 10 a 20 pontos aleatórios e evite locais como cercas e estradas. 
                     Use ferramentas limpas (pá, trado ou sonda) e retire a vegetação superficial. Colete uma fatia de solo até 20 cm de profundidade, 
-                    isture tudo em um balde limpo e coloque cerca de 500g em um saco etiquetado. Envie para análise.</p>
-                <a href="#" class="btn-secondary">Leia Mais</a>
+                    isture tudo em um balde limpo e coloque cerca de 500g em um saco etiquetado. Envie para análise.</p> <!-- Resumo do conteúdo -->
+                <a href="#" class="btn-secondary">Leia Mais</a> <!-- Link para detalhes -->
             </div>
-            <div class="card">
+            <div class="card"> <!-- Outro cartão -->
                 <img src="solo2.jpg" alt="Nutrientes do Solo">
                 <h3>Importância dos nutrientes</h3>
-                <p>Os nutrientes do solo são fundamentais para o crescimento das plantas e a fertilidade do solo. O nitrogênio (N) 
-                    promove o crescimento e folhas verdes, o fósforo (P) fortalece raízes e favorece flores e frutos, e o potássio (K) aumenta a 
-                    resistência a doenças. O cálcio (Ca) melhora a estrutura celular e ajusta o pH, o magnésio (Mg) é vital para a fotossíntese, 
+                <p>Os nutrientes do solo são fundamentais para o crescimento das plantas e a fertilidade do solo. 
+                    O nitrogênio (N) promove o crescimento e folhas verdes, o fósforo (P) fortalece raízes e favorece flores e frutos, e o potássio (K) 
+                    aumenta a resistência a doenças. O cálcio (Ca) melhora a estrutura celular e ajusta o pH, o magnésio (Mg) é vital para a fotossíntese, 
                     e o enxofre (S) participa na formação de proteínas. Juntos, esses nutrientes garantem plantas saudáveis e boa produtividade agrícola.</p>
                 <a href="#" class="btn-secondary">Leia Mais</a>
             </div>
@@ -53,22 +53,22 @@
     </section>
 
     <!-- Seção de Formulário -->
-    <section id="contato" class="form-section">
+    <section id="contato" class="form-section"> <!-- Área para contato -->
         <h2>Entre em Contato</h2>
-        <form id="contactForm">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+        <form id="contactForm"> <!-- Formulário -->
+            <label for="name">Nome:</label> <!-- Rótulo do campo nome -->
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required> <!-- Entrada de texto -->
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            <label for="email">Email:</label> <!-- Rótulo do campo email -->
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required> <!-- Entrada de email -->
 
-            <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" placeholder="Escreva sua mensagem" required></textarea>
+            <label for="message">Mensagem:</label> <!-- Rótulo do campo mensagem -->
+            <textarea id="message" name="message" placeholder="Escreva sua mensagem" required></textarea> <!-- Área de texto -->
 
-            <button type="submit" class="btn-primary">Enviar</button>
+            <button type="submit" class="btn-primary">Enviar</button> <!-- Botão de envio -->
         </form>
     </section>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Importa o arquivo JavaScript externo -->
 </body>
 </html>
