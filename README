@@ -1,0 +1,39 @@
+Soloforte - Educação sobre Análise de Solo
+O Soloforte é uma plataforma online que oferece conteúdo educativo sobre análise de solo, ferramentas e recursos para melhorar o conhecimento na área. Este site tem como objetivo fornecer informações valiosas sobre práticas de coleta de amostras, importância dos nutrientes do solo e muito mais.
+
+Estrutura do Projeto
+O site é composto pelas seguintes seções principais:
+
+Cabeçalho:
+O logo "Soloforte" e uma barra de navegação que permite o acesso às principais seções do site: Início, Artigos, Ferramentas, Sobre e Contato.
+
+Seção Principal (Hero):
+Uma área de boas-vindas com um título de destaque e um botão "Saiba Mais" que leva os usuários à seção de artigos.
+
+Seção de Artigos:
+Artigos educativos sobre práticas de análise de solo e a importância dos nutrientes para o crescimento das plantas. Esta seção inclui cartões com resumos e links para mais informações.
+
+Seção de Contato:
+Um formulário de contato onde os usuários podem enviar suas mensagens, solicitando mais informações ou esclarecimentos.
+
+Funcionalidades
+Barra de Navegação: Facilita a navegação para as diferentes seções do site.
+Artigos Educativos: Apresenta artigos sobre coleta de amostras de solo, importância dos nutrientes e mais.
+Formulário de Contato: Permite que os usuários enviem mensagens diretamente para a equipe do site.
+
+Tecnologias Usadas
+HTML5: Estrutura do conteúdo da página.
+CSS: Estilização visual do site. O projeto utiliza um arquivo externo chamado styles.css.
+JavaScript: Interatividade, por meio de um arquivo externo chamado script.js.
+Google Fonts: Utiliza a fonte "Roboto" para uma melhor legibilidade e estética do texto.
+
+Como Usar
+Abra o arquivo index.html em seu navegador para visualizar a página inicial.
+Explore os artigos educativos sobre análise de solo e clique nos links para aprender mais.
+Preencha o formulário de contato para entrar em contato com a equipe do site.
+Contribuições
+Contribuições para melhorar o conteúdo ou funcionalidade do site são bem-vindas. Para contribuir, faça um fork deste repositório, faça suas alterações e envie um pull request.
+
+Licença
+Este projeto está licenciado sob a Licença MIT, o que permite que qualquer pessoa use, modifique e distribua o código.
+
